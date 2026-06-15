@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manish Giri | MCA Student · Python & ML Developer · Published Researcher</title>
+  <meta name="description"
+    content="Portfolio of Manish Giri – MCA student at Brainware University, Python & Machine Learning developer, and published researcher. Explore projects, research, and skills.">
+  <meta name="author" content="Manish Giri">
+  <meta name="keywords"
+    content="Manish Giri, MCA, Python, Machine Learning, Brainware University, Portfolio, Developer, Researcher">
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">&lt;<span>MG</span>/&gt;</a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#research" class="nav-link" data-section="research">Research</a>
+        <a href="#education" class="nav-link" data-section="education">Education</a>
+        <a href="#workshops" class="nav-link" data-section="workshops">Workshops</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="hero">
+    <canvas id="particle-canvas"></canvas>
+    <div class="hero-bg-gradient"></div>
+
+    <div class="hero-content">
+      <div class="hero-photo-wrapper">
+        <div class="hero-photo-ring"></div>
+        <img src="Manish_Giri_Photo.jpeg" alt="Manish Giri" class="hero-photo">
+      </div>
+
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Open to Opportunities
+      </div>
+
+      <h1 class="hero-name">
+        <span class="gradient-text">Manish Giri</span>
+      </h1>
+
+      <p class="hero-tagline">
+        <span id="typewriter-text"></span><span class="typewriter-cursor"></span>
+      </p>
+
+      <p class="hero-location">
+        <i data-lucide="map-pin" style="width:16px;height:16px;"></i>
+        Barasat, Kolkata, West Bengal, India
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#projects" class="btn btn-primary">
+          <i data-lucide="folder-open" style="width:18px;height:18px;"></i>
+          View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i data-lucide="send" style="width:18px;height:18px;"></i>
+          Get In Touch
+        </a>
+        <a href="MANISH_GIRI_RESUME.pdf" target="_blank" class="btn btn-outline">
+          <i data-lucide="download" style="width:18px;height:18px;"></i>
+          Download Resume
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Crafting Intelligent Solutions</h2>
+        <p class="section-subtitle">Bridging academia and industry through innovation in AI/ML and software engineering.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-block reveal-left">
+          <h3>Who am I?</h3>
+          <p>
+            I'm an MCA student at Brainware University with a stellar academic record (BCA CGPA: 9.88, MCA combined
+            SGPA: 9.70 across Semester I & II). I have hands-on experience in Python, Machine Learning, and Android
+            Development, and I'm a published researcher at ICSCI 2025.
+          </p>
+          <p>
+            I'm seeking a software engineering or AI/ML role where I can apply strong algorithmic thinking and build
+            data-driven solutions that make a real-world impact.
+          </p>
+
+          <div class="about-info-list">
+            <div class="about-info-item">
+              <span class="info-icon"><i data-lucide="calendar" style="width:18px;height:18px;"></i></span>
+              <span class="info-label">Born</span>
+              <span class="info-value">26th July, 2003</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-icon"><i data-lucide="map-pin" style="width:18px;height:18px;"></i></span>
+              <span class="info-label">Location</span>
+              <span class="info-value">Barasat, Kolkata, WB</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-icon"><i data-lucide="globe" style="width:18px;height:18px;"></i></span>
+              <span class="info-label">Languages</span>
+              <span class="info-value">English, Bengali, Hindi</span>
+            </div>
+            <div class="about-info-item">
+              <span class="info-icon"><i data-lucide="graduation-cap" style="width:18px;height:18px;"></i></span>
+              <span class="info-label">Degree</span>
+              <span class="info-value">MCA (Ongoing)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid reveal-right">
+          <div class="stat-card">
+            <div class="stat-number"><span class="counter" data-target="9.88">0</span></div>
+            <div class="stat-label">BCA CGPA</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span class="counter" data-target="9.70">0</span></div>
+            <div class="stat-label">MCA SGPA (Combined)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span class="counter" data-target="6" data-suffix="+">0</span></div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number"><span class="counter" data-target="2">0</span></div>
+            <div class="stat-label">Research Publications</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section class="section" id="skills" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Technical Skills</span>
+        <h2 class="section-title">My Tech Arsenal</h2>
+        <p class="section-subtitle">Technologies and concepts I work with on a daily basis.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-category-card reveal stagger-1">
+          <div class="skill-cat-icon lang">
+            <i data-lucide="code-2" style="width:24px;height:24px;"></i>
+          </div>
+          <h3 class="skill-cat-title">Programming Languages</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Python</span>
+                <span class="skill-item-percent">90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Java</span>
+                <span class="skill-item-percent">80%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI/ML -->
+        <div class="skill-category-card reveal stagger-2">
+          <div class="skill-cat-icon ml">
+            <i data-lucide="brain" style="width:24px;height:24px;"></i>
+          </div>
+          <h3 class="skill-cat-title">AI / Machine Learning</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Supervised Learning</span>
+                <span class="skill-item-percent">85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Unsupervised Learning</span>
+                <span class="skill-item-percent">75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Deep Learning (RNN/LSTM)</span>
+                <span class="skill-item-percent">70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-category-card reveal stagger-3">
+          <div class="skill-cat-icon tools">
+            <i data-lucide="wrench" style="width:24px;height:24px;"></i>
+          </div>
+          <h3 class="skill-cat-title">Tools & Platforms</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">GitHub / Git</span>
+                <span class="skill-item-percent">85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Firebase</span>
+                <span class="skill-item-percent">70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Scikit-learn</span>
+                <span class="skill-item-percent">80%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="80"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Concepts -->
+        <div class="skill-category-card reveal stagger-4">
+          <div class="skill-cat-icon concepts">
+            <i data-lucide="lightbulb" style="width:24px;height:24px;"></i>
+          </div>
+          <h3 class="skill-cat-title">Core Concepts</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Data Structures & Algorithms</span>
+                <span class="skill-item-percent">80%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Object-Oriented Programming</span>
+                <span class="skill-item-percent">85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category-card reveal stagger-5">
+          <div class="skill-cat-icon frameworks">
+            <i data-lucide="smartphone" style="width:24px;height:24px;"></i>
+          </div>
+          <h3 class="skill-cat-title">Frameworks & APIs</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">Android (Java)</span>
+                <span class="skill-item-percent">75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">REST APIs</span>
+                <span class="skill-item-percent">70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="70"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span class="skill-item-name">JDBC</span>
+                <span class="skill-item-percent">75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" data-percent="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Projects</span>
+        <h2 class="section-title">Things I've Built</h2>
+        <p class="section-subtitle">From machine learning models to full-stack Android applications.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="android">Android</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Iris Flower Classification -->
+        <div class="project-card reveal stagger-1" data-category="ml">
+          <div class="project-card-header">
+            <div class="project-icon ml">
+              <i data-lucide="flower-2" style="width:24px;height:24px;"></i>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="project-year">2026</span>
+              <a href="https://github.com/abstracted-m7/CodeAlpha_Iris_Flower_Classification" target="_blank"
+                class="project-link-btn" title="View on GitHub">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Iris Flower Classification</h3>
+            <p class="project-desc">
+              ML-based classification system using Python and Scikit-learn to predict flower species based on sepal and
+              petal measurements, including data preprocessing, model training, and performance evaluation.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Scikit-learn</span>
+              <span class="project-tag">Classification</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Car Price Prediction -->
+        <div class="project-card reveal stagger-2" data-category="ml">
+          <div class="project-card-header">
+            <div class="project-icon ml">
+              <i data-lucide="car" style="width:24px;height:24px;"></i>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="project-year">2026</span>
+              <a href="https://github.com/abstracted-m7/CodeAlpha_Car_Price_Prediction" target="_blank"
+                class="project-link-btn" title="View on GitHub">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Car Price Prediction</h3>
+            <p class="project-desc">
+              Learned and applied concepts of linear regression for continuous price prediction, including data
+              preprocessing, feature analysis, and model evaluation for accurate automobile pricing.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Linear Regression</span>
+              <span class="project-tag">Feature Engineering</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: RNN LSTM Sequence Modeling -->
+        <div class="project-card reveal stagger-3" data-category="ml">
+          <div class="project-card-header">
+            <div class="project-icon ml">
+              <i data-lucide="thermometer" style="width:24px;height:24px;"></i>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="project-year">2026</span>
+              <a href="https://github.com/abstracted-m7/MCA-Projects/tree/main/RNN_LSTM_Sequence_Modeling/Next_Day_Temparature_Predictor"
+                target="_blank" class="project-link-btn" title="View on GitHub">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">RNN/LSTM Sequence Modeling</h3>
+            <p class="project-desc">
+              Next-day temperature predictor using Recurrent Neural Networks and LSTM architecture for time-series
+              forecasting, demonstrating deep learning proficiency in sequence modeling tasks.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">RNN</span>
+              <span class="project-tag">LSTM</span>
+              <span class="project-tag">Deep Learning</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Plant Disease Detection -->
+        <div class="project-card reveal stagger-4" data-category="ml">
+          <div class="project-card-header">
+            <div class="project-icon ml">
+              <i data-lucide="leaf" style="width:24px;height:24px;"></i>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="project-year">2026</span>
+              <a href="https://github.com/abstracted-m7/MCA-Projects/tree/main/Plant%20Disease%20Detection%20-%20Transfer%20Learning"
+                target="_blank" class="project-link-btn" title="View on GitHub">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Plant Disease Detection</h3>
+            <p class="project-desc">
+              Transfer learning-based system for detecting plant diseases from leaf images, leveraging pre-trained CNN
+              models for high-accuracy agricultural disease classification.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Transfer Learning</span>
+              <span class="project-tag">CNN</span>
+              <span class="project-tag">Computer Vision</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Database Sync System -->
+        <div class="project-card reveal stagger-5" data-category="java">
+          <div class="project-card-header">
+            <div class="project-icon java">
+              <i data-lucide="database" style="width:24px;height:24px;"></i>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="project-year">2026</span>
+              <a href="https://github.com/abstracted-m7/MCA-Projects/tree/main/Database%20Syncronization%20System%20Java_JDBC"
+                target="_blank" class="project-link-btn" title="View on GitHub">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Database Synchronization System</h3>
+            <p class="project-desc">
+              Built a robust database synchronization system using Java and JDBC, enabling seamless data consistency and
+              real-time syncing across multiple database instances.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">JDBC</span>
+              <span class="project-tag">Database</span>
+              <span class="project-tag">Sync</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: GreenGrow Hub -->
+        <div class="project-card reveal stagger-6" data-category="android">
+          <div class="project-card-header">
+            <div class="project-icon android">
+              <i data-lucide="sprout" style="width:24px;height:24px;"></i>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <span class="project-year">2025</span>
+              <a href="https://github.com/abstracted-m7/BCA-Project" target="_blank" class="project-link-btn"
+                title="View on GitHub">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">GreenGrow Hub – Farmer's Companion</h3>
+            <p class="project-desc">
+              Android-based solution for farmers featuring seed & fertilizer recommendations, IoT-enabled irrigation
+              control, 4-day weather forecasting, and a crop recommendation system predicting suitable crops based on
+              input parameters.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Android</span>
+              <span class="project-tag">Java</span>
+              <span class="project-tag">ML</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">REST API</span>
+              <span class="project-tag">IoT</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== RESEARCH SECTION ==================== -->
+  <section class="section" id="research" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Research & Publications</span>
+        <h2 class="section-title">Published Work</h2>
+        <p class="section-subtitle">Contributing to the body of scientific knowledge in sustainable computing and
+          intelligent systems.</p>
+      </div>
+
+      <div class="research-timeline">
+        <!-- Research Item 1 -->
+        <div class="research-item reveal-left">
+          <div class="research-dot"></div>
+          <div class="research-card">
+            <div class="research-venue">
+              <i data-lucide="book-open" style="width:14px;height:14px;vertical-align:-2px;margin-right:4px;"></i>
+              Science and Culture, ISNA | March – April 2026
+            </div>
+            <h3 class="research-title">Intelligent Railway Gate Control System Using Microcontroller And Servo Motor
+            </h3>
+            <p class="research-desc">
+              Published in Science and Culture journal by Indian Science News Association (ISNA). The paper presents an
+              intelligent system for automated railway gate control using microcontroller technology and servo motors
+              for improved safety and efficiency.
+            </p>
+            <div class="research-links">
+              <a href="https://scienceandculture-isna.org/home/latest_issue" target="_blank" class="research-link">
+                <i data-lucide="external-link" style="width:14px;height:14px;"></i>
+                Published Site
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Item 2 -->
+        <div class="research-item reveal-left">
+          <div class="research-dot"></div>
+          <div class="research-card">
+            <div class="research-venue">
+              <i data-lucide="book-open" style="width:14px;height:14px;vertical-align:-2px;margin-right:4px;"></i>
+              ICSCI 2025 – International Conference on Sustainable Computing for Industry
+            </div>
+            <h3 class="research-title">Krishi Culture Application</h3>
+            <p class="research-desc">
+              Published in "Sustainable Computing for Industry: Innovations, Challenges and Future Direction" (Track:
+              Sustainable Computing, Chapter 21). The paper presents an innovative application for the agricultural
+              sector using sustainable computing approaches.
+            </p>
+            <div class="research-links">
+              <a href="https://www.amazon.in/dp/B0F9T8PV6J" target="_blank" class="research-link">
+                <i data-lucide="book" style="width:14px;height:14px;"></i>
+                Book Link
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION SECTION ==================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Education</span>
+        <h2 class="section-title">Academic Journey</h2>
+        <p class="section-subtitle">A consistent track record of academic excellence and continuous learning.</p>
+      </div>
+
+      <div class="education-timeline">
+        <!-- MCA -->
+        <div class="education-item reveal-left stagger-1">
+          <div class="education-dot"></div>
+          <div class="education-card">
+            <div class="education-year">2025 – Ongoing</div>
+            <h3 class="education-degree">Master of Computer Applications (MCA)</h3>
+            <p class="education-institution">Brainware University (UGC)</p>
+            <p class="education-score">
+              Semester 1: <span class="education-score-highlight">92.86% | SGPA: 9.79</span><br>
+              Semester 2: <span class="education-score-highlight">90.14% | SGPA: 9.62</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- BCA -->
+        <div class="education-item reveal-left stagger-2">
+          <div class="education-dot"></div>
+          <div class="education-card">
+            <div class="education-year">2025</div>
+            <h3 class="education-degree">Bachelor of Computer Applications (BCA)</h3>
+            <p class="education-institution">Brainware University (UGC)</p>
+            <p class="education-score">
+              Score: <span class="education-score-highlight">94.95% | CGPA: 9.88</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- 12th -->
+        <div class="education-item reveal-left stagger-3">
+          <div class="education-dot"></div>
+          <div class="education-card">
+            <div class="education-year">2021</div>
+            <h3 class="education-degree">Higher Secondary (12th)</h3>
+            <p class="education-institution">Danton H.S. Multipurpose School (WBCHSE)</p>
+            <p class="education-score">
+              Score: <span class="education-score-highlight">62.00%</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- 10th -->
+        <div class="education-item reveal-left stagger-4">
+          <div class="education-dot"></div>
+          <div class="education-card">
+            <div class="education-year">2019</div>
+            <h3 class="education-degree">Secondary (10th)</h3>
+            <p class="education-institution">Danton High School (WBBSE)</p>
+            <p class="education-score">
+              Score: <span class="education-score-highlight">43.85%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WORKSHOPS SECTION ==================== -->
+  <section class="section" id="workshops" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Workshops & Events</span>
+        <h2 class="section-title">Continuous Learning</h2>
+        <p class="section-subtitle">Workshops, hackathons, and seminars that fuel my growth as a developer.</p>
+      </div>
+
+      <div class="workshops-grid">
+        <!-- Workshop 1: AI/ML 2-day -->
+        <div class="workshop-card reveal stagger-1">
+          <div class="workshop-icon">
+            <i data-lucide="cpu" style="width:28px;height:28px;"></i>
+          </div>
+          <h3 class="workshop-title">2-Day Workshop on Data Science, AI & ML using Python</h3>
+          <div class="workshop-meta">
+            <i data-lucide="calendar" style="width:12px;height:12px;vertical-align:-1px;margin-right:4px;"></i>
+            April 10 – 11, 2026 | Brainware University, MCA Department
+          </div>
+          <p class="workshop-desc">
+            Intensive hands-on workshop covering data science fundamentals, artificial intelligence concepts, and
+            machine learning techniques using Python. Organized by ARDENT at Brainware University.
+          </p>
+          <div class="workshop-cert-id">
+            <i data-lucide="badge-check" style="width:14px;height:14px;"></i>
+            Certificate ID: ARDENT/194423
+          </div>
+        </div>
+
+        <!-- Workshop 2: Wellness Engineering -->
+        <div class="workshop-card reveal stagger-2">
+          <div class="workshop-icon" style="background: rgba(16, 185, 129, 0.12); color: var(--accent-green);">
+            <i data-lucide="heart-pulse" style="width:28px;height:28px;"></i>
+          </div>
+          <h3 class="workshop-title">Wellness Engineering: Medication to Meditation</h3>
+          <div class="workshop-meta">
+            <i data-lucide="calendar" style="width:12px;height:12px;vertical-align:-1px;margin-right:4px;"></i>
+            Brainware University
+          </div>
+          <p class="workshop-desc">
+            Seminar exploring the intersection of technology and wellness, covering holistic approaches from medication
+            to meditation for engineering professionals.
+          </p>
+        </div>
+
+        <!-- Workshop 3: APIML Hackathon -->
+        <div class="workshop-card reveal stagger-3">
+          <div class="workshop-icon" style="background: rgba(245, 158, 11, 0.12); color: var(--accent-gold);">
+            <i data-lucide="trophy" style="width:28px;height:28px;"></i>
+          </div>
+          <h3 class="workshop-title">APIML Hackathon</h3>
+          <div class="workshop-meta">
+            <i data-lucide="calendar" style="width:12px;height:12px;vertical-align:-1px;margin-right:4px;"></i>
+            Hackathon Event
+          </div>
+          <p class="workshop-desc">
+            Participated in the APIML Hackathon, competing with peers to build innovative solutions using APIs and
+            machine learning within a competitive time-bound environment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Have a project in mind or want to collaborate? Feel free to reach out.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-block reveal-left">
+          <h3>Contact Information</h3>
+          <p>I'm currently open to software engineering and AI/ML opportunities. Whether you have a question or just
+            want to say hi, I'll do my best to get back to you!</p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">
+                <i data-lucide="mail" style="width:20px;height:20px;"></i>
+              </div>
+              <div class="contact-detail-text">
+                <span class="label">Email</span>
+                <a href="mailto:manishgiri8101@gmail.com" class="value">manishgiri8101@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">
+                <i data-lucide="phone" style="width:20px;height:20px;"></i>
+              </div>
+              <div class="contact-detail-text">
+                <span class="label">Phone</span>
+                <a href="tel:+918101652731" class="value">+91 8101652731</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-icon-box">
+                <i data-lucide="map-pin" style="width:20px;height:20px;"></i>
+              </div>
+              <div class="contact-detail-text">
+                <span class="label">Location</span>
+                <span class="value">Barasat, Kolkata, West Bengal 700125</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/manish-giri-46a529254/" target="_blank" class="social-link"
+              title="LinkedIn" aria-label="LinkedIn Profile">
+              <i data-lucide="linkedin" style="width:20px;height:20px;"></i>
+            </a>
+            <a href="https://github.com/abstracted-m7" target="_blank" class="social-link" title="GitHub"
+              aria-label="GitHub Profile">
+              <i data-lucide="github" style="width:20px;height:20px;"></i>
+            </a>
+            <a href="mailto:manishgiri8101@gmail.com" class="social-link" title="Email" aria-label="Send Email">
+              <i data-lucide="mail" style="width:20px;height:20px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper reveal-right">
+          <form id="contact-form" action="https://formsubmit.co/manishgiri8101@gmail.com" method="POST">
+            <!-- Hidden inputs for FormSubmit features -->
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_subject" value="New message from Portfolio!">
+
+            <div class="form-group">
+              <label class="form-label" for="form-name">Your Name *</label>
+              <input type="text" id="form-name" name="name" class="form-input" placeholder="ABC" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-email">Your Email *</label>
+              <input type="email" id="form-email" name="email" class="form-input" placeholder="abc@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-subject">Subject</label>
+              <input type="text" id="form-subject" name="_subject" class="form-input" placeholder="Project Collaboration">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-message">Message *</label>
+              <textarea id="form-message" name="message" class="form-textarea" placeholder="Tell me about your idea..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">
+              <i data-lucide="send" style="width:18px;height:18px;"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        Designed & Built with <span class="footer-heart">♥</span> by <span>Manish Giri</span> · © 2026
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script>
+    // Initialize Lucide icons after DOM load
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>

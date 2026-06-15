@@ -1,0 +1,23 @@
+LinkedIn link: https://www.linkedin.com/in/manish-giri-46a529254/
+
+GitHub.com: https://github.com/abstracted-m7
+
+Projects: 
+
+ML projects:
+1. Iris Flower Classification : https://github.com/abstracted-m7/CodeAlpha_Iris_Flower_Classification
+2. Car Price Prediction : https://github.com/abstracted-m7/CodeAlpha_Car_Price_Prediction
+3. RNN_LSTM_Sequence_Modeling : https://github.com/abstracted-m7/MCA-Projects/tree/main/RNN_LSTM_Sequence_Modeling/Next_Day_Temparature_Predictor
+4. Transfer Learning(Plant Disease Detection): https://github.com/abstracted-m7/MCA-Projects/tree/main/Plant%20Disease%20Detection%20-%20Transfer%20Learning
+
+Java Project:
+Database Synchronization System Java JDBC: https://github.com/abstracted-m7/MCA-Projects/tree/main/Database%20Syncronization%20System%20Java_JDBC
+
+Group Project (BCA final Year Project):
+GreenGrow Hub App: https://github.com/abstracted-m7/BCA-Project
+
+
+Research:
+added in the resume.
+links: published site:https://scienceandculture-isna.org/home/latest_issue , Book_link: https://www.amazon.in/dp/B0F9T8PV6J?ref=cm_sw_r_ffobk_cp_ud_dp_5JCGMDBBY55VAEGDNQ4Z&ref_=cm_sw_r_ffobk_cp_ud_dp_5JCGMDBBY55VAEGDNQ4Z&social_share=cm_sw_r_ffobk_cp_ud_dp_5JCGMDBBY55VAEGDNQ4Z&bestFormat=true
+
