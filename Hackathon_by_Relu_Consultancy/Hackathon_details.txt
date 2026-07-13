@@ -1,0 +1,20 @@
+A fast-paced, 6-hour online hackathon designed to evaluate practical skills in AI, automation, and data workflows. Focuses on building a real-world, end-to-end application, not just solving isolated coding problems. Participants demonstrate abilities across data collection, API integration, AI usage, and deployment.
+
+Objective of the Contest
+Assess candidates’ ability to create a functional, production-ready solution within limited time.
+Evaluate how well participants handle real data, multiple integrations, and live deployment.
+Designed for hiring roles in AI & Automation development with emphasis on practical execution.
+
+Skills Being Tested
+Web scraping and REST API integration
+Use of LLM/AI APIs for intelligent processing
+Data structuring, transformation, and visualization
+Building dashboards using lightweight frameworks
+Deployment and handling real-world constraints (errors, limits, etc.)
+
+Evaluation Criteria
+Functionality and correctness of the solution
+Code quality and project structure
+UI/UX and data visualization clarity
+Effectiveness of AI integration
+Handling of edge cases and robustness

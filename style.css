@@ -1108,6 +1108,23 @@ ul, ol {
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.25);
 }
 
+.workshop-img {
+  margin: -32px -32px 24px -32px;
+  border-bottom: 1px solid var(--glass-border);
+  overflow: hidden;
+  position: relative;
+}
+.workshop-img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.workshop-card:hover .workshop-img img {
+  transform: scale(1.05);
+}
+
 .workshop-icon {
   width: 56px;
   height: 56px;
